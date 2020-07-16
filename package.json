@@ -6,7 +6,7 @@
     "tslint": "^6.1.2",
     "typescript": "^3.9.6"
   },
-  "husky" : {
+  "husky": {
     "hooks": {
       "pre-commit": "yarn tslint -c tslint.json 'src/**/*.ts"
     }
